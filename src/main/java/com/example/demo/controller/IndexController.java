@@ -28,6 +28,6 @@ public class IndexController {
 	
 	@GetMapping("/delete")
 	public String delete() {
-		return "delete";
+		return "delete!!!!";
 	}
 }
