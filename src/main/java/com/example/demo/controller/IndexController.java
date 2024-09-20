@@ -13,6 +13,6 @@ public class IndexController {
 	
 	@GetMapping("/list")
 	public String list() {
-		return "list";
+		return "list!";
 	}
 }
